@@ -5,7 +5,7 @@ This project aims to build a research paper recommendation system. Given a paper
 
 ## Deep Learning Techniques Used
 - Natural Language Processing (NLP)
-- Large Language Model (LLM) (Mini LM L6-V2)
+- Large Language Model (LLM) (Mini LM L6-V2) - [Link](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
 ## Dataset Used
 The dataset used for training and evaluation is available on Kaggle. You can access it [here](link_to_kaggle_dataset).
