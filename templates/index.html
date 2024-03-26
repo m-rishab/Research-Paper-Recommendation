@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Papers Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+
+</head>
+<body>
+    <div class="container">
+        <h1><span class="material-symbols-outlined">
+            auto_stories
+            </span> Research Paper Recommendation <span class="material-symbols-outlined">
+                auto_stories
+                </span></h1>
+        <form action="/recommend" method="POST">
+            <span class="material-symbols-outlined">
+                travel_explore
+                </span>
+            <input type="text" name="paper_title" placeholder="Enter Paper Title">
+            <button type="submit">Search</button>
+        </form>
+        <div id="recommendations">
+            {% if message %}
+            <p>{{ message }}</p>
+            {% endif %}
+            {% if recommended_papers %}
+            <h2>Recommended Papers:</h2>
+            <ul>
+                {% for paper in recommended_papers %}
+                <li>{{ paper }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
