@@ -13,6 +13,11 @@ Sentence Transformers is a framework that transforms sentences or text snippets 
 
 This flowchart illustrates the process flow of the research paper recommendation system, including data preprocessing, model training, and recommendation generation.
 
+## Future Improvements
+- Incorporating user feedback to enhance recommendation accuracy.
+- Expanding the dataset to cover a broader range of research domains.
+- Integrating more advanced NLP techniques for better understanding of paper content.
+
 ## Dataset Used
 The dataset used for training and evaluation is available on Kaggle. You can access it [here](https://www.kaggle.com/datasets/spsayakpaul/arxiv-paper-abstracts/data).
 
