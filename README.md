@@ -16,6 +16,9 @@ This flowchart illustrates the process flow of the research paper recommendation
 The dataset used for training and evaluation is available on Kaggle. You can access it [here](link_to_kaggle_dataset).
 
 ## Demo
+
+https://github.com/m-rishab/Research-Paper-Recommendation/assets/113618652/0f3971b6-ebd0-439a-90b2-a168c99f054b
+
 To run the project, follow the steps below:
 
 ### How to Run This Project:
