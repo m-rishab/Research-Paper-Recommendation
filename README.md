@@ -9,7 +9,7 @@ This project aims to build a research paper recommendation system. Given a paper
 
 ## Sentence Transformer
 Sentence Transformers is a framework that transforms sentences or text snippets into fixed-length vector representations, known as embeddings. These embeddings capture semantic meaning and are generated using pre-trained transformer models fine-tuned on large text corpora. They are useful for tasks like semantic similarity computation, text classification, and information retrieval.
-[Insert flowchart here]
+[![transformer-models-1030x1030](https://github.com/m-rishab/Research-Paper-Recommendation/assets/113618652/6078f4ab-52f9-4c25-8139-0c605ea85376)]
 
 This flowchart illustrates the process flow of the research paper recommendation system, including data preprocessing, model training, and recommendation generation.
 
