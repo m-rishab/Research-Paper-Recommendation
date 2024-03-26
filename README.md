@@ -25,3 +25,4 @@ To run the project, follow the steps below:
 ### How to Run This Project:
 1. Run the notebook to execute all models.
 2. After running the notebook, execute the `app.py` file using the following command:
+   `python app.py`
