@@ -7,7 +7,8 @@ This project aims to build a research paper recommendation system. Given a paper
 - Natural Language Processing (NLP)
 - Large Language Model (LLM) (Mini LM L6-V2) - [Link](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).
 
-## Flowchart
+## Sentence Transformer
+Sentence Transformers is a framework that transforms sentences or text snippets into fixed-length vector representations, known as embeddings. These embeddings capture semantic meaning and are generated using pre-trained transformer models fine-tuned on large text corpora. They are useful for tasks like semantic similarity computation, text classification, and information retrieval.
 [Insert flowchart here]
 
 This flowchart illustrates the process flow of the research paper recommendation system, including data preprocessing, model training, and recommendation generation.
